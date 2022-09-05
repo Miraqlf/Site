@@ -7,3 +7,20 @@ body {
   background: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
+.vod {
+  margin: 20px;
+  padding: 7px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+}
+
+.vod video {
+  justify-content: center;
+  height: 550px;
+  width: 550px;
+}
+
+@media screen and (max-width=1317px) {
+}
