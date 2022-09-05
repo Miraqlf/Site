@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background: url(./asset/cave.jpg);
@@ -12,23 +12,25 @@ body {
   display: flex;
   flex-direction: column;
 }
-a {
-  color: #36393e;
-  text-decoration: none;
-}
-.c2 {
-  color: #f2f2f2;
-}
 header {
   font-family: Arial, Helvetica, sans-serif;
 }
 nav {
+  position: fixed;
   width: 100%;
   display: flex;
   align-items: center;
   background: rgb(99, 60, 58);
   padding: 15px 25px;
   box-shadow: inset 0px -1px 0px #c5c5c6;
+  position: relative;
+}
+a {
+  color: #36393e;
+  text-decoration: none;
+}
+.c2 {
+  color: #f2f2f2;
 }
 .nav-icon {
   display: flex;
@@ -60,7 +62,7 @@ nav {
   display: inline-block;
   position: relative;
 }
-.navlinks-container a::after {
+.navlinks-container ::after {
   content: "";
   display: block;
   position: absolute;
@@ -118,7 +120,7 @@ nav {
     cursor: pointer;
     border: none;
     display: flex;
-    background: rgb(99, 60, 58);
+    background: #7289da;
     align-items: center;
     position: relative;
   }
@@ -155,7 +157,7 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    background: rgb(99, 60, 58);
+    background: #7289da;
     top: 100%;
     left: 0;
     padding: 15px 50px 15px 20px;
@@ -194,14 +196,4 @@ nav {
   .nav-icon span {
     font-size: 20px;
   }
-}
-
-header {
-  flex: 1 0 auto;
-}
-footer {
-  flex-shrink: 0;
-  border-top: 1px dashed #36393e;
-  background: #f2f2f2;
-  color: #333;
 }
