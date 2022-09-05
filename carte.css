@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* background: url(./asset/fond\ site.jpg); */
+  background: #333;
+  background-size: cover;
+  background-position: top;
+  color: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+h1 {
+  color: #f1f1f1;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: dashed grey;
+}
+h1 span {
+  display: block;
+  color: #f1f1f1;
+}
+h1 span:nth-child(1) {
+  font-weight: normal;
+  color: #7289da;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 30px;
+  margin: 80px 0;
+}
+.card-wrapper {
+  position: relative;
+  min-height: 350px;
+  perspective: 2000px;
+  perspective-origin: bottom;
+}
+.card-wrapper:hover .card {
+  transform: rotateY(180deg);
+}
+.card {
+  position: relative;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.86, 0.07, 1);
+  color: white;
+  font-weight: bold;
+}
+.card-front,
+.card-front-b,
+.card-front-a,
+.card-front-k,
+.card-front-g,
+.card-front-p,
+.card-back {
+  position: absolute;
+  order: 2;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+  border-radius: 8px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-front {
+  background: #7289da;
+  background: url(./asset/pp\ mira.gif);
+  background-size: cover;
+  background-position: 40%, 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-front p {
+  font-size: 25px;
+  line-height: 35px;
+}
+.arrow-icon {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  color: #f1f1f1;
+}
+.card-price {
+  font-size: 45px;
+  text-align: center;
+}
+.card-back {
+  background: #7289da;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-wrapper:nth-child(even) .card-back {
+  background: #36393e;
+}
+
+.card-back ul,
+ol {
+  list-style-type: none;
+  text-decoration: none;
+}
+.card-wrapper:nth-child(odd) .card-back a:hover {
+  background: #36393e;
+  color: #fff;
+}
+.card-wrapper:nth-child(even) .card-back a:hover {
+  background: #7289da;
+  color: #fff;
+}
+
+.card-front-b {
+  background: #7289da;
+  background: url(./asset/pp\ baggy.gif);
+  background-size: cover;
+  background-position: 40%, 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-front-a {
+  background: #7289da;
+  background: url(./asset/acepp.gif);
+  background-size: cover;
+  background-position: 40%, 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-front-k {
+  background: #7289da;
+  background: url(./asset/pp\ kisem.jpg);
+  background-size: cover;
+  background-position: 40%, 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-front-g {
+  background: #7289da;
+  background: url(./asset/gigipp.gif);
+  background-size: cover;
+  background-position: 40%, 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-front-p {
+  background: #7289da;
+  background: url(./asset/boruto\ pp.gif);
+  background-size: cover;
+  background-position: 40%, 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
