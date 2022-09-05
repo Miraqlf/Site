@@ -10,26 +10,41 @@ body {
 .vod {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-self: center;
   align-items: auto;
   align-content: start;
 }
 video {
   flex: 1 0 auto;
-  margin: 10px;
+  height: 300px;
+  width: 300px;
 }
-@media (min-width: 1250px) {
+@media (min-width: 640px) {
   .vod {
-    margin: 20px;
-    padding: 7px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 5px 5px;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
-    padding: 10px;
+    align-items: center;
+    justify-items: center;
+  }
+  video {
+    height: auto;
+    width: 250px;
+  }
+}
+@media (min-width: 818px) {
+  video {
+    width: 350px;
+  }
+}
+@media (min-width: 974px) {
+  video {
+    width: 450px;
+  }
+}
+@media (min-width: 1251px) {
+  video {
+    width: 550px;
   }
 }
