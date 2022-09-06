@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="Nav-Galerie.css" />
     <link rel="stylesheet" href="galerie.css" />
+    <script src="scripts.js" defer></script>
   </head>
 
   <body>
@@ -72,21 +73,48 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="slider">
-        <div class="sliders">
-          <img src="./asset/IMG_4736.png" class="img__slider active" />
-          <img src="./asset/IMG_2606.png" class="img__slider" />
-          <img src="./asset/IMG_4728.png" class="img__slider" />
-          <div class="suivant">
-            <i class="fas fa-chevron-right"></i>
-          </div>
+    <div class="diapo" data-speed="2000" data-transition="700">
+      <div class="elements">
+        <div class="element">
+          <img src="./asset/IMG_4728.png" />
         </div>
-        <div class="precedent">
-          <i class="fas fa-chevron-left"></i>
+        <div class="element">
+          <img src="./asset/IMG_4729.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4731.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4732.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4733.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4736.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4744.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4745.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4746.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_4799.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_2606.png" />
+        </div>
+        <div class="element">
+          <img src="./asset/IMG_2606.png" />
         </div>
       </div>
-    </main>
-    <script src="galerie.js"></script>
+      <!-- Flèches -->
+      <i id="nav-gauche" class="fa-solid fa-chevron-left"></i>
+      <i id="nav-droite" class="fa-solid fa-chevron-right"></i>
+    </div>
   </body>
 </html>

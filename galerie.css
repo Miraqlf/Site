@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0%;
+  padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -12,40 +12,35 @@ main {
   width: 80%;
   margin: auto;
 }
-.slider {
+
+.diapo {
+  margin-top: 10px;
   position: relative;
   overflow: hidden;
 }
-.sliders {
+
+.elements {
   display: flex;
 }
 
-.img__slider {
+.element {
   flex: 1 0 100%;
   position: relative;
 }
 
-.img__slider > img {
+.element > img {
   width: 100%;
 }
-.slider img.active {
-  opacity: 1;
-}
 
-.suivant,
-.precedent {
-  color: #fff;
-  font-size: 1.5rem;
+#nav-gauche,
+#nav-droite {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
   cursor: pointer;
 }
-
-.suivant {
-  right: 1rem;
-}
-
-.precedent {
-  left: 1rem;
+#nav-droite {
+  right: 0;
 }
