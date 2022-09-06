@@ -51,3 +51,34 @@ h2 {
 #nav-droite {
   right: 0;
 }
+.diapo1 {
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.elements1 {
+  display: flex;
+}
+
+.element1 {
+  flex: 1 0 100%;
+  position: relative;
+}
+
+.element1 > img {
+  width: 100%;
+}
+
+#nav-gauche1,
+#nav-droite1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+#nav-droite1 {
+  right: 0;
+}
