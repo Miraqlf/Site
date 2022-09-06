@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./navA.css" />
+    <meta charset="utf-8" />
+    <title>Galerie</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -12,8 +10,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Empire Asile</title>
+    <link rel="stylesheet" href="Nav-Galerie.css" />
+    <link rel="stylesheet" href="galerie.css" />
   </head>
+
   <body>
     <header>
       <nav>
@@ -39,8 +39,8 @@
             <span></span>
           </button>
           <div class="navlinks-container">
-            <a href="./index-carte.html" aria-current="page">Présentation</a>
-            <a href="./index-edit.html">Edit du serveur</a>
+            <a href="./index.html" aria-current="page">Accueil</a>
+            <a href="./index-carte.html">Présentation</a>
             <a href="./index-galerie.html">Galerie Photo</a>
             <a href="./indexCo.html">Contacts</a>
           </div>
@@ -72,6 +72,21 @@
         </div>
       </nav>
     </header>
+    <main>
+      <div class="slider">
+        <div class="sliders">
+          <img src="./asset/IMG_4736.png" class="img__slider active" />
+          <img src="./asset/IMG_2606.png" class="img__slider" />
+          <img src="./asset/IMG_4728.png" class="img__slider" />
+          <div class="suivant">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="precedent">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+      </div>
+    </main>
+    <script src="galerie.js"></script>
   </body>
-  <script src="script.js"></script>
 </html>

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+.sliders {
+  display: flex;
+}
+
+.img__slider {
+  flex: 1 0 100%;
+  position: relative;
+}
+
+.img__slider > img {
+  width: 100%;
+}
+.slider img.active {
+  opacity: 1;
+}
+
+.suivant,
+.precedent {
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.suivant {
+  right: 1rem;
+}
+
+.precedent {
+  left: 1rem;
+}
