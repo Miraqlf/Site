@@ -12,6 +12,13 @@ main {
   width: 80%;
   margin: auto;
 }
+h2 {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 1, 7rem;
+  margin: 10px;
+  padding: 10px;
+}
 
 .diapo {
   margin-top: 10px;
