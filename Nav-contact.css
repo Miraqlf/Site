@@ -82,7 +82,7 @@ a {
 .join-toggler {
   display: none;
 }
-@media (max-width: 876px) {
+@media (max-width: 903px) {
   nav {
     padding: 15px 20px;
     position: relative;

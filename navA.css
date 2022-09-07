@@ -42,7 +42,7 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   margin-left: 10px;
-  font-weight: 400;
+  font-weight: 500;
   color: #f2f2f2;
 }
 .nav-icon i {
@@ -99,7 +99,7 @@ a {
 .join-toggler {
   display: none;
 }
-@media (max-width: 675px) {
+@media (max-width: 916px) {
   nav {
     padding: 15px 20px;
     position: relative;
@@ -195,5 +195,73 @@ a {
   }
   .nav-icon span {
     font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .navlinks-container a {
+    font-size: 25px;
+  }
+
+  .nav-icon span {
+    font-size: 30px;
+  }
+  .nav-icon i {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1400px) {
+  .navlinks-container a {
+    font-size: 25px;
+  }
+  .join-btn button {
+    font-size: 20px;
+  }
+  .nav-icon span {
+    font-size: 30px;
+  }
+  .nav-icon i {
+    font-size: 45px;
+  }
+}
+@media (min-width: 1600px) {
+  .navlinks-container a {
+    font-size: 30px;
+  }
+  .join-btn button {
+    font-size: 25px;
+  }
+  .nav-icon span {
+    font-size: 45px;
+  }
+  .nav-icon i {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1800px) {
+  .navlinks-container a {
+    font-size: 35px;
+  }
+  .join-btn button {
+    font-size: 30px;
+  }
+  .nav-icon span {
+    font-size: 40px;
+  }
+  .nav-icon i {
+    font-size: 55px;
+  }
+}
+@media (min-width: 1950px) {
+  .navlinks-container a {
+    font-size: 40px;
+  }
+  .join-btn button {
+    font-size: 35px;
+  }
+  .nav-icon span {
+    font-size: 45px;
+  }
+  .nav-icon i {
+    font-size: 60px;
   }
 }

@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 nav {
   position: fixed;
   width: 100%;
@@ -82,7 +87,7 @@ a {
 .join-toggler {
   display: none;
 }
-@media (max-width: 675px) {
+@media (max-width: 860px) {
   nav {
     padding: 15px 20px;
     position: relative;
