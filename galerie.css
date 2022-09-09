@@ -51,27 +51,27 @@ h2 {
 #nav-droite {
   right: 0;
 }
-.diapo1 {
+.container {
   margin-top: 10px;
   position: relative;
   overflow: hidden;
 }
 
-.elements1 {
+.sliders {
   display: flex;
 }
 
-.element1 {
+.slider {
   flex: 1 0 100%;
   position: relative;
 }
 
-.element1 > img {
+.slider > img {
   width: 100%;
 }
 
-#nav-gauche1,
-#nav-droite1 {
+#gauche,
+#droite {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -79,6 +79,6 @@ h2 {
   font-size: 2rem;
   cursor: pointer;
 }
-#nav-droite1 {
+#droite {
   right: 0;
 }
