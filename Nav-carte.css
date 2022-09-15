@@ -3,7 +3,7 @@ nav {
   width: 100%;
   display: flex;
   align-items: center;
-  background: #7289da;
+  background: #947a6c;
   padding: 15px 25px;
   box-shadow: inset 0px -1px 0px #c5c5c6;
   position: relative;
@@ -15,12 +15,12 @@ nav {
   margin-right: 20px;
 }
 a {
-  color: #36393e;
+  color: #333;
   text-decoration: none;
 }
-.c2 {
+/* .c2 {
   color: #f2f2f2;
-}
+} */
 .nav-icon span {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
@@ -76,8 +76,8 @@ a {
 }
 .join-btn button:nth-child(2) {
   border: none;
-  background: #36393e;
-  color: white;
+  background: #dcdcdc;
+  color: #333;
 }
 .join-toggler {
   display: none;
@@ -103,7 +103,7 @@ a {
     cursor: pointer;
     border: none;
     display: flex;
-    background: #7289da;
+    background: #947a6c;
     align-items: center;
     position: relative;
   }
@@ -140,7 +140,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     position: absolute;
-    background: #7289da;
+    background: #947a6c;
     top: 100%;
     left: 0;
     padding: 15px 50px 15px 20px;

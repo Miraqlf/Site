@@ -28,7 +28,7 @@ h1 span {
 }
 h1 span:nth-child(1) {
   font-weight: normal;
-  color: #7289da;
+  color: #947a6c;
 }
 
 .card-container {
@@ -77,7 +77,7 @@ h1 span:nth-child(1) {
 }
 
 .card-front {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/pp\ mira.gif);
   background-size: cover;
   background-position: center;
@@ -86,7 +86,7 @@ h1 span:nth-child(1) {
   justify-content: space-between;
 }
 .card-front-b {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/pp\ baggy.gif);
   background-size: cover;
   background-position: center;
@@ -104,7 +104,7 @@ h1 span:nth-child(1) {
   justify-content: space-between;
 }
 .card-front-k {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/pp\ kisem.gif);
   background-size: cover;
   background-position: center;
@@ -113,7 +113,7 @@ h1 span:nth-child(1) {
   justify-content: space-between;
 }
 .card-front-g {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/gigipp.gif);
   background-size: cover;
   background-position: center;
@@ -122,7 +122,7 @@ h1 span:nth-child(1) {
   justify-content: space-between;
 }
 .card-front-p {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/boruto\ pp.gif);
   background-size: cover;
   background-position: center;
@@ -131,7 +131,7 @@ h1 span:nth-child(1) {
   justify-content: space-between;
 }
 .card-front-y {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/pp\ yaya.gif);
   background-size: cover;
   background-position: 40%, 50%;
@@ -140,7 +140,7 @@ h1 span:nth-child(1) {
   justify-content: space-between;
 }
 .card-front-v {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/vivi\ pp.gif);
   background-size: cover;
   background-position: center;
@@ -149,7 +149,7 @@ h1 span:nth-child(1) {
   justify-content: space-between;
 }
 .card-front-t {
-  background: #7289da;
+  background: #947a6c;
   background: url(./asset/pp\ tanji.gif);
   background-size: cover;
   background-position: center;
@@ -177,20 +177,22 @@ h1 span:nth-child(1) {
 }
 
 .card-back {
-  background: #7289da;
+  background: #947a6c;
+  color: white;
   transform: rotateY(180deg);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .card-wrapper:nth-child(even) .card-back {
-  background: #36393e;
+  background: #dad291;
+  color: #000001;
 }
 .card-wrapper:nth-child(odd) .card-back a:hover {
-  background-color: #36393e;
+  background-color: #fce903;
   color: #fff;
 }
 .card-wrapper:nth-child(even) .card-back a:hover {
-  background-color: #7289da;
+  background-color: #2c1491;
   color: #fff;
 }

@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 body {
-  background: url(./asset/cave.jpg);
+  /* background: url(./asset/cave.jpg); */
+  background-color: #f2f2f2;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,9 +30,9 @@ a {
   color: #36393e;
   text-decoration: none;
 }
-.c2 {
+/* .c2 {
   color: #f2f2f2;
-}
+} */
 .nav-icon {
   display: flex;
   align-items: center;
@@ -93,7 +94,7 @@ a {
 }
 .join-btn button:nth-child(2) {
   border: none;
-  background: #36393e;
+  background: #dcdcdc;
   color: white;
 }
 .join-toggler {
