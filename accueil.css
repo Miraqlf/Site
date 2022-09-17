@@ -63,3 +63,10 @@ h2 {
   border-radius: 10px;
   line-height: 150%;
 }
+
+footer {
+  background: #947a6c;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
