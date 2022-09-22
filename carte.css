@@ -253,7 +253,13 @@ footer button:hover {
   background-color: #dad291;
 }
 
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .bar {
+  justify-content: space-between;
   grid-area: 1 / 3 / 2 / 4;
   display: flex;
   flex-wrap: nowrap;
@@ -270,6 +276,7 @@ footer button:hover {
 }
 
 .reseau {
+  justify-content: space-between;
   grid-area: 1 / 4 / 2 / 5;
   display: flex;
   flex-wrap: nowrap;
@@ -291,4 +298,48 @@ footer button:hover {
 footer span .sep {
   width: 100%;
   height: 1px;
+}
+
+@media (max-width: 1040px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .containers,
+  .containers1,
+  .containers2 {
+    margin: 0;
+    justify-content: space-around;
+    flex-grow: 0;
+  }
+  .containers {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .titre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+  }
+  footer .titre button {
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  footer .titre a {
+    margin: 0px;
+    padding: 20px;
+  }
+  .foot {
+    justify-content: center;
+  }
 }
